@@ -11,6 +11,12 @@ The LangChain YouTube Assistant is a Python script that utilizes various languag
 pip install -r requirements.txt
 ```
 
+1. Provide your OpenAI API key in order to access the OpenAI language models. Create a file named .env in the root directory of your project in the following format:
+
+```env
+OPENAI_API_KEY=your_api_key_here
+```
+
 ## Usage
 
 1. Ensure you have a valid YouTube video URL that you want to analyze.
@@ -68,3 +74,7 @@ Here's an example of how to use the LangChain YouTube Assistant script:
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+```
+
+```
